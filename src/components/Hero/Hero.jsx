@@ -34,7 +34,7 @@ const Hero = () => {
   return (
     <>
       <div
-        className="min-h-[550px] sm:min-h-[600px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200"
+        className="min-h-[7000px] sm:min-h-[600px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200"
         style={bgImage}
       >
         <div className="container pb-8 sm:pb-0">
@@ -48,7 +48,7 @@ const Hero = () => {
             >
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
                 Welcome{" "}
-                <span class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
+                <span className="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
                   Foodie
                 </span>{" "}
                 Zone
